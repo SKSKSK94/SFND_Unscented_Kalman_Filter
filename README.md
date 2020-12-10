@@ -69,6 +69,8 @@ for instructions and the project rubric.
 ### RMSE error on px, py, vx, vy
 <img src="images/simulation.gif" width="800" height="300" />
 
+It's interesting to see the predicted path which is constrained by the motion model. In this project the motion model used is CTRV, which assumes constant velocity and turning rate. Since our cars do not have constant turning rates you can see the predicted paths swing around and take a while to correct after the car begins moving straight again.
+
 ### Determine process noise by chi-sqaure distribution
 I determined process noise std_a_(Process noise standard deviation longitudinal acceleration in m/s^2) and std_yawdd_(Process noise standard deviation yaw acceleration in rad/s^2) by using chi-sqaure distribution table as belows. 
 
